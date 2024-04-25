@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web 01</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=0.60, minimum-scale=0.60, maximum-scale=0.60"
+    />
+    <style>
+      body {
+        background-color: black;
+        color: White;
+        /* transition: background-color 0.5s, color 0.5s; */
+      }
+      p {
+        display: none;
+      }
+
+      @media screen and (max-width: 1280px) {
+        body {
+          background-color: blue;
+        }
+      }
+
+      @media screen and (max-width: 1080px) {
+        body {
+          background-color: aqua;
+        }
+      }
+
+      @media screen and (max-width: 840px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: azure;
+          color: black;
+        }
+      }
+
+      @media print {
+        body {
+          background-color: white;
+          color: black;
+        }
+        p{
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>Resize your window and watch my mood change!</h1>
+    <p>Congratulations! You just discovered a hidden paragraph. Want a cookie?</p>
+    
+  </body>
+</html>
